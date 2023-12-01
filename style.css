@@ -973,3 +973,77 @@ footer a i {
     width: 300px;
   }
 }
+
+/*----------------github---------------*/
+#github {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.github {
+  width: 45%;
+  margin: 10px 0;
+  padding: 20px;
+  background-color: #080707;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.github_head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+/* h3 {
+  font-size: 20px;
+  color: #333;
+} */
+
+.github_list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #0ef;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+/* Styling for GitHub icons */
+.BsGithub {
+  font-size: 30px;
+  color: #333;
+}
+
+/* Styling for GitHub stats images */
+#github-top-langs,
+#github-stats-card,
+#github-streak-stats {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+/* Styling for GitHub calendar */
+.react-activity-calendar {
+  width: 100%;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .github {
+    width: 100%;
+  }
+}
