@@ -121,40 +121,6 @@ const observer = new IntersectionObserver((entries) => {
   });
 });
 
-// let butn = document.querySelector(".send-msg");
-
-// butn.addEventListener("click", function (e) {
-//   e.preventDefault();
-
-//   let name = document.getElementById("name").value;
-//   let email = document.getElementById("email").value;
-//   let address = document.getElementById("address").value;
-//   let text = document.getElementById("text").value;
-//   let phone = document.getElementById("phone").value;
-
-//   let body =
-//     "name: " +
-//     name +
-//     "<br /> email: " +
-//     email +
-//     "<br /> address: " +
-//     address +
-//     "<br /> phone: " +
-//     phone +
-//     "<br /> message: " +
-//     text;
-
-//   Email.send({
-//     Host: "smtp.gmail.com",
-//     Username: "shivamswami8899@gmail.com",
-//     Password: "uojpfocgyblxesoj",
-//     To: "shivamswami8899@gmail.com",
-//     From: email,
-//     Subject: text,
-//     Body: body,
-//   }).then((message) => alert(message));
-// });
-
 const scrollScale = document.querySelectorAll(".scroll-scale");
 scrollScale.forEach((el) => observer.observe(el));
 
