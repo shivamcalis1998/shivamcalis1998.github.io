@@ -130,7 +130,7 @@ scrollBottom.forEach((el) => observer.observe(el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
 
-/////////////////////downloading///////////////////////////
+/////////////////////downloading CV///////////////////////////
 function openResumeInNewTab(event, resumePath) {
   event.preventDefault(); // prevent default behavior of the button
   window.open(resumePath, "_blank");
