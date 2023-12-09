@@ -131,9 +131,7 @@ const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
 
 /////////////////////downloading CV///////////////////////////
-function openResumeInNewTab(event, resumePath) {
-  event.preventDefault(); // prevent default behavior of the button
+function openResumeInNewTab(resumePath, anchorId) {
   window.open(resumePath, "_blank");
-  var anchorId = event.target.id.replace("button", "link");
   document.getElementById(anchorId).click();
 }
