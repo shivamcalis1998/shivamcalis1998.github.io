@@ -68,6 +68,7 @@ header.sticky {
   font-size: 26px;
   font-weight: 700;
   letter-spacing: 1px;
+  top: 0%;
 }
 
 span {
@@ -112,7 +113,7 @@ section {
   padding: 100px 10%;
 }
 
-.home {
+#home {
   min-height: 100vh;
   height: 100%;
   width: 100%;
@@ -318,7 +319,7 @@ section {
 
 /* about section css ------------------------------------- */
 
-.about {
+#about {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -326,12 +327,12 @@ section {
   background: var(--secon-bg-color);
 }
 
-.about .img-about {
+#about .img-about {
   text-align: center;
   position: relative;
 }
 
-.about .img-about img {
+#about .img-about img {
   max-width: 400px;
   height: auto;
 }
@@ -475,7 +476,7 @@ section {
 
 /* skills section css ------------------------------------- */
 
-.skills {
+#skills {
   background: var(--secon-bg-color);
 }
 
@@ -703,19 +704,19 @@ section {
 }
 
 /* contact section css ------------------------------------- */
-.contact {
+#contact {
   background: var(--secon-bg-color);
 }
 
-.contact form {
+#contact form {
   text-align: center;
   max-width: 50rem;
   margin: 1rem auto;
   margin-bottom: 3rem;
 }
 
-.contact form input,
-.contact form textarea {
+#contact form input,
+#contact form textarea {
   width: 100%;
   color: var(--text-color);
   background: var(--bg-color);
@@ -725,7 +726,7 @@ section {
   padding: 0.7rem;
 }
 
-.contact form textarea {
+#contact form textarea {
   resize: none;
 }
 .formBtn {
@@ -926,7 +927,7 @@ footer a i {
     top: 100%;
   }
 
-  .home {
+  #home {
     grid-template-columns: 1fr;
   }
 
@@ -940,7 +941,7 @@ footer a i {
     top: 13%;
   }
 
-  .about {
+  #about {
     flex-direction: column-reverse;
   }
   .skill-main {

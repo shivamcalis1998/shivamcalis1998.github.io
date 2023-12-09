@@ -19,12 +19,20 @@
     <header>
       <div class="logo"><span>S</span>hivam.</div>
       <ul class="navlist" id="nav-menu">
-        <li><a href="#home" style="--i: 1">Home</a></li>
-        <li><a href="#about" style="--i: 2">About</a></li>
+        <li class="nav-link home"><a href="#home" style="--i: 1">Home</a></li>
+        <li class="nav-link about">
+          <a href="#about" style="--i: 2">About</a>
+        </li>
         <li><a href="#services" style="--i: 3">Services</a></li>
-        <li><a href="#skills" style="--i: 4">Skills</a></li>
-        <li><a href="#projects" style="--i: 5">Projects</a></li>
-        <li><a href="#contact" style="--i: 6">Contacts</a></li>
+        <li class="nav-link skills">
+          <a href="#skills" style="--i: 4">Skills</a>
+        </li>
+        <li class="nav-link projects">
+          <a href="#projects" style="--i: 5">Portfolio</a>
+        </li>
+        <li class="nav-link contact">
+          <a href="#contact" style="--i: 6">Contacts</a>
+        </li>
       </ul>
       <div id="menu-icon" class="bx bx-menu"></div>
     </header>
@@ -186,7 +194,7 @@
       </div>
     </section>
     <!-- about-section//////////////////////////////////////////////// -->
-    <section id="about" class="about section">
+    <section id="about" class="about">
       <div class="img-about scroll-scale">
         <img
           src="https://pbs.twimg.com/media/F-qeL8cW4AAKGHB?format=png&name=small"
@@ -609,7 +617,6 @@
         </article>
       </div>
     </section>
-
     <!-- contact-section//////////////////////////////////////////////// -->
     <section id="contact" class="contact">
       <div class="main-text scroll-scale">
