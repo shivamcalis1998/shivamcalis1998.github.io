@@ -153,6 +153,3 @@ function downloadFile() {
   // Remove the link from the document
   document.body.removeChild(link);
 }
-
-cy.get("#resumeBtn button").eq(0).click(); // Click the first button
-cy.get("#resumeBtn button").eq(1).click(); // Click the second button
