@@ -17,7 +17,7 @@
   </head>
   <body>
     <header>
-      <div class="logo"><span>S</span>hivam.</div>
+      <div id="user-detail-name" class="logo"><span>S</span>hivam.</div>
       <ul class="navlist" id="nav-menu">
         <li class="nav-link home"><a href="#home" style="--i: 1">Home</a></li>
         <li class="nav-link about">
@@ -32,6 +32,9 @@
         </li>
         <li class="nav-link contact">
           <a href="#contact" style="--i: 6">Contacts</a>
+        </li>
+        <li class="nav-link resume">
+          <a href="#resmue" style="--i: 7">Resume</a>
         </li>
       </ul>
       <div id="menu-icon" class="bx bx-menu"></div>
@@ -49,7 +52,7 @@
             <span class="word">Problem&nbsp;Solver</span>
           </h3>
         </div>
-        <p>
+        <p id="user-detail-intro">
           Product designer and Digital Creative Director working in design field
           for 2 years so far. Specialized in Backend and application
           development.
@@ -93,6 +96,7 @@
       <div class="home-image scroll-top">
         <div class="img-box">
           <img
+            class="home-img"
             src="https://pbs.twimg.com/media/F-qeL8cXgAAWuHL?format=png&name=small"
             alt=""
           />
@@ -194,7 +198,7 @@
       </div>
     </section>
     <!-- about-section//////////////////////////////////////////////// -->
-    <section id="about" class="about">
+    <section id="about" class="about section">
       <div class="img-about scroll-scale">
         <img
           src="https://pbs.twimg.com/media/F-qeL8cW4AAKGHB?format=png&name=small"
@@ -205,7 +209,7 @@
           <p>Year of Experience</p>
         </div>
         <div class="info-about2">
-          <span>3+</span>
+          <span>4+</span>
           <p>Projects complete</p>
         </div>
         <div class="info-about3">
@@ -386,42 +390,44 @@
         </div>
 
         <div class="portfolio-gallery scroll-bottom">
-          <div class="port-box mix product">
+          <div class="port-box mix project-card product">
             <div class="port-image">
               <img
+                class="project-tech-stack"
                 src="https://pbs.twimg.com/media/GAuym3rXgAAvnIc?format=jpg&name=large"
                 alt=""
               />
             </div>
             <div class="port-content">
-              <h3>agricultre</h3>
-              <p>
+              <h3 class="project-title">agricultre</h3>
+              <p class="project-description">
                 Freelancing project of agricultre created by reactjs,tailwind
                 and completly responsive.
               </p>
               <div>
                 <a href="https://agriculture-orcin.vercel.app/" target="_blank"
-                  ><i class="bx bx-link-external"></i
+                  ><i class="bx bx-link-external project-deployed-link"></i
                 ></a>
                 <a
                   href="https://github.com/Dipanshu-verma/agriculture"
                   target="_blank"
-                  ><i class="bx bxl-github"></i
+                  ><i class="bx bxl-github project-github-link"></i
                 ></a>
               </div>
             </div>
           </div>
 
-          <div class="port-box mix product">
+          <div class="port-box mix project-card product">
             <div class="port-image">
               <img
+                class="project-tech-stack"
                 src="https://pbs.twimg.com/media/F_dQ9y2WwAA-OID?format=jpg&name=large"
                 alt=""
               />
             </div>
             <div class="port-content">
-              <h3>Disney+ Clone</h3>
-              <p>
+              <h3 class="project-title">Disney+ Clone</h3>
+              <p class="project-description">
                 responsive clone of Disney+ clone by using React.js redux and
                 Firebase.
               </p>
@@ -429,53 +435,55 @@
                 <a
                   href="https://disneyplus-clone-85d9c.web.app/"
                   target="_blank"
-                  ><i class="bx bx-link-external"></i
+                  ><i class="bx bx-link-external project-deployed-link"></i
                 ></a>
                 <a
                   href="https://github.com/shivamcalis1998/new-clone-of-disney-plus"
                   target="_blank"
-                  ><i class="bx bxl-github"></i
+                  ><i class="bx bxl-github project-github-link"></i
                 ></a>
               </div>
             </div>
           </div>
 
-          <div class="port-box mix inter">
+          <div class="port-box mix project-card inter">
             <div class="port-image">
               <img
+                class="project-tech-stack"
                 src="https://pbs.twimg.com/media/F-qeL8gWIAABYLA?format=jpg&name=large"
                 alt=""
               />
             </div>
             <div class="port-content">
-              <h3>Oestin clone</h3>
-              <p>
+              <h3 class="project-title">Oestin clone</h3>
+              <p class="project-description">
                 Oestin Hotel & Resort HTML Template is built for a sophisticated
                 hotel, resort or travel related business.
               </p>
               <div>
                 <a href="https://team-oestin.netlify.app/" target="_blank"
-                  ><i class="bx bx-link-external"></i
+                  ><i class="bx bx-link-external project-deployed-link"></i
                 ></a>
                 <a
                   href="https://github.com/shivamcalis1998/Oestin"
                   target="_blank"
-                  ><i class="bx bxl-github"></i
+                  ><i class="bx bxl-github project-github-link"></i
                 ></a>
               </div>
             </div>
           </div>
 
-          <div class="port-box mix web">
+          <div class="port-box mix project-card web">
             <div class="port-image">
               <img
+                class="project-tech-stack"
                 src="https://pbs.twimg.com/media/F-qeL8cWQAA5Jks?format=jpg&name=large"
                 alt=""
               />
             </div>
             <div class="port-content">
-              <h3>Nykaa clone</h3>
-              <p>
+              <h3 class="project-title">Nykaa clone</h3>
+              <p class="project-description">
                 Nykaa is an Indian e-commerce company headquartered in Mumbai.
                 It sells beauty, wellness and fashion products.
               </p>
@@ -483,53 +491,55 @@
                 <a
                   href="https://fantastic-squirrel-6303d3.netlify.app/"
                   target="_blank"
-                  ><i class="bx bx-link-external"></i
+                  ><i class="bx bx-link-external project-deployed-link"></i
                 ></a>
                 <a
                   href="https://github.com/shivamcalis1998/teamNakya"
                   target="_blank"
-                  ><i class="bx bxl-github"></i
+                  ><i class="bx bxl-github project-github-link"></i
                 ></a>
               </div>
             </div>
           </div>
 
-          <div class="port-box mix product">
+          <div class="port-box mix project-card product">
             <div class="port-image">
               <img
+                class="project-tech-stack"
                 src="https://pbs.twimg.com/media/GAuym3rXgAAvnIc?format=jpg&name=large"
                 alt=""
               />
             </div>
             <div class="port-content">
-              <h3>agricultre</h3>
-              <p>
+              <h3 class="project-title">agricultre</h3>
+              <p class="project-description">
                 Freelancing project of agricultre created by reactjs,tailwind
                 and completly responsive.
               </p>
               <div>
                 <a href="https://agriculture-orcin.vercel.app/" target="_blank"
-                  ><i class="bx bx-link-external"></i
+                  ><i class="bx bx-link-external project-deployed-link"></i
                 ></a>
                 <a
                   href="https://github.com/Dipanshu-verma/agriculture"
                   target="_blank"
-                  ><i class="bx bxl-github"></i
+                  ><i class="bx bxl-github project-github-link"></i
                 ></a>
               </div>
             </div>
           </div>
 
-          <div class="port-box mix inter">
+          <div class="port-box mix project-card inter">
             <div class="port-image">
               <img
+                class="project-tech-stack"
                 src="https://pbs.twimg.com/media/F_dQ9y2WwAA-OID?format=jpg&name=large"
                 alt=""
               />
             </div>
             <div class="port-content">
-              <h3>Disney+ clone</h3>
-              <p>
+              <h3 class="project-title">Disney+ clone</h3>
+              <p class="project-description">
                 responsive clone of Disney+ clone by using React.js redux and
                 Firebase.
               </p>
@@ -537,12 +547,12 @@
                 <a
                   href="https://disneyplus-clone-85d9c.web.app/"
                   target="_blank"
-                  ><i class="bx bx-link-external"></i
+                  ><i class="bx bx-link-external project-deployed-link"></i
                 ></a>
                 <a
                   href="https://github.com/shivamcalis1998/new-clone-of-disney-plus"
                   target="_blank"
-                  ><i class="bx bxl-github"></i
+                  ><i class="bx bxl-github project-github-link"></i
                 ></a>
               </div>
             </div>
