@@ -743,6 +743,17 @@ section {
   justify-content: center;
   width: 100%;
 }
+
+#resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: var(--secon-bg-color);
+}
+
+#resumeBtn {
+  margin-left: 43%;
+}
 /* ------------------------footer css-------------------- */
 footer {
   padding: 1.5rem 10%;
