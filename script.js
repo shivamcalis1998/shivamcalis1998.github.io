@@ -129,3 +129,27 @@ scrollBottom.forEach((el) => observer.observe(el));
 
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
+
+/////////////////////downloading///////////////////////////
+function downloadFile() {
+  // Specify the URL of the file to be downloaded
+  var fileUrl = "Shivam-Swami-Resume.pdf";
+
+  // Create a temporary link element
+  var link = document.createElement("a");
+
+  // Set the href attribute with the file URL
+  link.href = fileUrl;
+
+  // Set the download attribute with the desired file name
+  link.download = "Shivam-Swami-Resume.pdf";
+
+  // Append the link to the document
+  document.body.appendChild(link);
+
+  // Trigger a click on the link to start the download
+  link.click();
+
+  // Remove the link from the document
+  document.body.removeChild(link);
+}

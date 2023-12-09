@@ -216,6 +216,7 @@ section {
 }
 .btn:hover {
   color: var(--hover-color);
+  cursor: pointer;
 }
 .btn::before {
   content: "";
