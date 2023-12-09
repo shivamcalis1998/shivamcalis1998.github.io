@@ -68,14 +68,19 @@
           </div>
         </div>
         <div class="btn-box">
-          <a
-            href="Shivam-Swami-Resume.pdf"
+          <button
             id="resume-button-2"
             class="btn"
-            download
+            onclick="openResumeInNewTab('Shivam-Swami-Resume.pdf')"
           >
             Download CV
-          </a>
+          </button>
+          <!-- Anchor Link for Button 1 -->
+          <a
+            href="Shivam-Swami-Resume.pdf"
+            id="resume-link-2"
+            download="Shivam-Swami-Resume.pdf"
+          ></a>
 
           <a
             href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
@@ -700,11 +705,21 @@
       <div class="main-text scroll-scale">
         <span>Download my resume</span>
         <h2>Contact me!</h2>
-        <!-- <div class="btn-box" id="resumeBtn"> -->
-        <button onclick="downloadFile()" id="resume-button-1" class="btn">
-          Download CV
-        </button>
-        <!-- </div> -->
+        <div class="btn-box" id="resumeBtn">
+          <button
+            id="resume-button-1"
+            class="btn"
+            onclick="openResumeInNewTab('Shivam-Swami-Resume.pdf')"
+          >
+            Download CV
+          </button>
+          <!-- Anchor Link for Button 1 -->
+          <a
+            href="Shivam-Swami-Resume.pdf"
+            id="resume-link-1"
+            download="Shivam-Swami-Resume.pdf"
+          ></a>
+        </div>
       </div>
     </section>
 
