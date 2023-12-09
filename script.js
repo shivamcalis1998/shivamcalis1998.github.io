@@ -131,11 +131,9 @@ const scrollTop = document.querySelectorAll(".scroll-top");
 scrollTop.forEach((el) => observer.observe(el));
 
 /////////////////////downloading///////////////////////////
-function openResumeInNewTab(resumePath) {
-  // Open the resume in a new tab
+function openResumeInNewTab(event, resumePath) {
+  event.preventDefault(); // prevent default behavior of the button
   window.open(resumePath, "_blank");
-
-  // Trigger the download by clicking the corresponding anchor link
   var anchorId = event.target.id.replace("button", "link");
   document.getElementById(anchorId).click();
 }
