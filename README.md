@@ -33,7 +33,7 @@ Explore a diverse range of projects, each highlighting specific skills and techn
 
 ## Contact
 
-Have questions or want to collaborate? Reach out to me via email at [your@email.com](mailto:your@email.com). You can also connect with me on [LinkedIn](https://www.linkedin.com/in/your-linkedin) and [Twitter](https://twitter.com/your-twitter).
+Have questions or want to collaborate? Reach out to me via email at [shivamswami8899@gmail.com](mailto:shivamswami8899@gmail.com). You can also connect with me on [LinkedIn]([https://www.linkedin.com/in/your-linkedin](https://www.linkedin.com/in/shivam-swami-945473247/)) and [Twitter]([https://twitter.com/your-twitter](https://twitter.com/meshivam07)).
 
 ## Resume
 
@@ -42,7 +42,3 @@ Download my resume [here](link-to-your-resume) for an in-depth look at my profes
 ## Skills
 
 Get a quick overview of my technical skills, covering frontend and backend technologies, version control systems, and collaborative platforms.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE) - see the [LICENSE](LICENSE) file for details.
