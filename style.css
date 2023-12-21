@@ -542,11 +542,20 @@ section {
 }
 .skill-bar .bar .tailwind {
   width: 71%;
-  animation: java 5s;
+  animation: tailwind 6s;
 }
 .skill-bar .bar .react {
   width: 74%;
-  animation: react 6s;
+  animation: react 7s;
+}
+.skill-bar .bar .Nodejs {
+  width: 70%;
+  animation: Nodejs 8s;
+}
+
+.skill-bar .bar .MongoDB {
+  width: 72%;
+  animation: MongoDB 9s;
 }
 
 /* skill right */
@@ -716,7 +725,7 @@ section {
 }
 
 .skills-card-img {
-  background-color: white;
+  /* background-color: white; */
   border-radius: 50%;
 }
 
@@ -860,6 +869,23 @@ footer a i {
   }
   100% {
     width: 71%;
+  }
+}
+@keyframes Nodejs {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 70%;
+  }
+}
+
+@keyframes MongoDB {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 72%;
   }
 }
 @keyframes react {
