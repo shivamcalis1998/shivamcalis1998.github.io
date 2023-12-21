@@ -682,6 +682,7 @@ section {
   transform: scale(1.1);
 }
 .port-content h3 {
+  color: var(--text-color);
   font-size: 1.6rem;
   font-weight: 600;
 }
