@@ -135,3 +135,7 @@ function openResumeInNewTab(resumePath, anchorId) {
   window.open(resumePath, "_blank");
   document.getElementById(anchorId).click();
 }
+// function openResumeInNewTab(resumePath, anchorId) {
+//   window.open(resumePath, "_blank");
+//   document.getElementById(anchorId).click();
+// }
