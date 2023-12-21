@@ -35,13 +35,21 @@
         </li>
         <li class="nav-link resume">
           <!-- Anchor Link for Button 2 -->
-          <a
+          <!-- <a
             style="--i: 7"
             href="Shivam-Swami-Resume.pdf"
             id="resume-button-1"
             target="_blank"
             rel="noopener noreferrer"
             download="Shivam-Swami-Resume.pdf"
+            >Download CV</a
+          > -->
+          <!-- Anchor Link for Button 1 -->
+          <a
+            id="resume-button-1"
+            style="--i: 7"
+            onclick="openResumeInNewTab('Shivam Swami-Resume.pdf', 'resume-link-1')"
+            id="resume-link-1"
             >Download CV</a
           >
         </li>
@@ -62,8 +70,8 @@
           </h3>
         </div>
         <p id="user-detail-intro">
-          Full-stack(MERN) developer for more than 1 years so far. Specialized
-          in Front-end(Reactjs) and application development.
+          Aspiring MERN Developer for more than 1 years so far. Specialized in
+          Front-end(Reactjs) and application development.
         </p>
         <div class="info-box">
           <div class="email-info">
@@ -76,16 +84,15 @@
           </div>
         </div>
         <div class="btn-box">
-          <a
-            href="Shivam-Swami-Resume.pdf"
+          <button
+            id="resume-button-1"
             class="btn"
-            id="resume-button-2"
-            target="_blank"
-            rel="noopener noreferrer"
-            download="Shivam-Swami-Resume.pdf"
-            >Download CV</a
+            onclick="openResumeInNewTab('Shivam Swami-Resume.pdf', 'resume-link-1')"
           >
-
+            Download CV
+          </button>
+          <!-- Anchor Link for Button 1 -->
+          <a href="Shivam Swami-Resume.pdf" id="resume-link-1" download></a>
           <a
             href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new"
             target="_blank"
